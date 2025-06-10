@@ -46,7 +46,7 @@ lamdas: [10]
 attribute_predictor: 'not'
 
 # training settings
-epochs: 200
+epochs: 500
 train_batch_size: 128
 learner: adam
 learning_rate: 0.0001
@@ -65,9 +65,9 @@ eval_args:
   mode: full
 
 repeatable: True
-metrics: ["Recall","NDCG"]
+metrics: ["Hit","NDCG"]
 topk: [3,5,10,20]
-valid_metric: Recall@20
+valid_metric: NDCG@20
 valid_metric_bigger: True
 eval_batch_size: 128
 loss_decimal_place: 4
