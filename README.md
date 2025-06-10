@@ -5,7 +5,7 @@ This is the implementation for our AAAI2025 paper:
 ## Environment
 We use Python language and Pytorch library to establish our model. 
 
-For the detailed environment, please follow `requirements.txt`
+For the detailed environment, please follow `requirements.txt`. (Updated at 2025 Jun. 10th)
 
 ## Dataset
 We leverage the dataset introduced in [GreenRec: A Large-Scale Dataset for Green Food Recommendation](https://dl.acm.org/doi/abs/10.1145/3589335.3651516)
@@ -26,4 +26,16 @@ python ./transfer.py
 Run *GRAPE* with 
 ```
 python ./run_model.py --dataset="Green_Rec" --hidden_size=256 --n_layers=3 --n_heads=2 --tau=1 --config_files="configs/Green_Rec.yaml" --priority=0
+```
+## Acknowledgement
+This repository is based on [RecBole](https://github.com/RUCAIBox/RecBole) and [MSSR](https://github.com/xiaolLIN/MSSR).
+## Citation
+```
+@inproceedings{jing2025bites,
+  title={Bites of Tomorrow: Personalized Recommendations for a Healthier and Greener Plate},
+  author={Jing, Jiazheng and Zhang, Yinan and Miao, Chunyan},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2025}
+}
+
 ```
