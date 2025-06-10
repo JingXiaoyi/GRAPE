@@ -1,0 +1,11 @@
+colorama==0.4.6
+colorlog==6.9.0
+numpy==2.2.6
+pandas==2.2.3
+peft==0.15.2
+scikit-learn==1.7.0
+scipy==1.15.3
+tensorboard==2.19.0
+tensorboard-data-server==0.7.2
+torch==2.6.0+cu126
+tqdm==4.67.1
